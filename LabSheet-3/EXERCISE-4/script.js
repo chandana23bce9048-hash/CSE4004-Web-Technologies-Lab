@@ -75,7 +75,6 @@ let activityStore = [];
             `${e.timestamp} | TYPE: ${e.type.padEnd(8)} | TARGET: ${e.target.padEnd(15)} | PHASE: ${e.phase}`
         ).join('\n');
         
-        // Trigger a download
         const blob = new Blob([formattedText], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5: Multi-Stage Workflow</title>
+    
+</head>
+<body>
+
+<div class="form-card">
+    <div class="progress-container">
+        <div id="progressBar"></div>
+    </div>
+    <h3 id="stageTitle">Step 1: Account Setup</h3>
+
+    <form id="multiStepForm">
+        <div class="stage active" id="stage1">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="username" placeholder="Enter username">
+                <div class="error" id="err-username"></div>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" id="email" placeholder="you@example.com">
+                <div class="error" id="err-email"></div>
+            </div>
+        </div>
+
+        <div class="stage" id="stage2">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" id="fullname" placeholder="John Doe">
+                <div class="error" id="err-fullname"></div>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" id="phone" placeholder="123-456-7890">
+                <div class="error" id="err-phone"></div>
+            </div>
+        </div>
+
+        <div class="stage" id="stage3">
+            <div class="form-group">
+                <label>Work Experience (Years)</label>
+                <input type="number" id="experience" min="0">
+                <div class="error" id="err-experience"></div>
+            </div>
+            <div class="form-group">
+                <label>Preferred City</label>
+                <input type="text" id="city">
+                <div class="error" id="err-city"></div>
+            </div>
+        </div>
+
+        <div class="stage" id="stage4">
+            <div id="reviewContent" style="background: #f1f5f9; padding: 15px; border-radius: 8px;">
+                </div>
+            <p style="font-size: 0.9em; color: #64748b; margin-top: 15px;">
+                By submitting, you agree to our terms of service.
+            </p>
+        </div>
+
+        <div class="nav-buttons">
+            <button type="button" class="btn-prev" id="prevBtn" disabled onclick="changeStep(-1)">Back</button>
+            <button type="button" class="btn-next" id="nextBtn" onclick="changeStep(1)">Next</button>
+        </div>
+    </form>
+</div>
+<script src="script.jss"></script>
+</body>
+</html>

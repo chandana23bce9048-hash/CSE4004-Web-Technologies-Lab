@@ -15,7 +15,7 @@ function loadXML() {
             } else {
                 renderTable();
             }
-        } else {
+        } else { 
             showMessage("Failed to load XML data.", "error");
         }
     };

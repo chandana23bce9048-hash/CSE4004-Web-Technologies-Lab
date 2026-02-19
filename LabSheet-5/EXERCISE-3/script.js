@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             addStudent();
         }
-    });
+    }); 
 
     document.getElementById('cancelBtn').addEventListener('click', resetForm);
 });

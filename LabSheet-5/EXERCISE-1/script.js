@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadXMLData();
 });
 
-function loadXMLData() {
+function loadXMLData() { 
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "employees.xml", true);
     

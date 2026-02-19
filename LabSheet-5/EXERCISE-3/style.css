@@ -13,7 +13,7 @@ button { padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; 
 .btn-secondary { background-color: #6c757d; color: white; }
 .btn-edit { background-color: #ffc107; color: black; width: auto; padding: 5px 10px; font-size: 0.9em; }
 .btn-delete { background-color: #dc3545; color: white; width: auto; padding: 5px 10px; font-size: 0.9em; }
-
+ 
 table { width: 100%; border-collapse: collapse; margin-top: 10px; }
 th, td { padding: 12px; border-bottom: 1px solid #dee2e6; text-align: left; }
 th { background-color: #212529; color: white; }

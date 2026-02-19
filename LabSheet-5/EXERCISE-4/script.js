@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('inventoryForm').addEventListener('submit', (e) => {
         e.preventDefault();
-
+    
         const name = document.getElementById('prodName').value.trim();
         const category = document.getElementById('prodCategory').value.trim();
         const price = parseFloat(document.getElementById('prodPrice').value);

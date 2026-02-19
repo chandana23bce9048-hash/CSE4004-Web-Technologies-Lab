@@ -11,7 +11,7 @@ h1 { margin: 0; color: #333; }
 .input-group { display: grid; grid-template-columns: 2fr 1.5fr 1fr 1fr; gap: 10px; margin-bottom: 15px; }
 input { padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
 .error-text { color: #dc3545; font-size: 0.9em; margin-top: 10px; font-weight: bold; }
-
+   
 button { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; }
 .btn-primary { background-color: #28a745; color: white; }
 .btn-primary:hover { background-color: #218838; }

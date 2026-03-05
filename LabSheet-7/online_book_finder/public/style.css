@@ -1,0 +1,17 @@
+body{
+font-family: Arial;
+width:700px;
+margin:auto;
+}
+
+input, select, button{
+padding:8px;
+margin:5px;
+}
+
+.book{
+border:1px solid #ccc;
+padding:10px;
+margin:10px 0;
+background:#f5f5f5;
+}
